@@ -1,0 +1,67 @@
+/* topnav */
+/* topnav */
+#top-nav a{
+    color: #fff;
+}
+/* navbar */
+/* navbar */
+.navbar{
+    background: rgb(0, 89, 255) !important;
+}
+.navbar-brand img{
+    width: 13%;
+    border-radius: 50%;
+    height: 50px;
+    width: 50px;
+}
+
+.navbar-toggler{
+    outline: none !important;
+    border: none !important;
+    box-shadow: none !important;
+}
+
+/* info */
+#info{
+    background: url(/assets/img/7AM\ BRAND\ \(2\).png);
+    height: 60vh;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    position: relative;
+}
+#info .bg-darks{
+    position: absolute;
+    background: rgba(0, 0, 0, .4);
+    width: 100%;
+    height: 100%;
+}
+
+#info .bg-darks p{
+    width: 40%;
+    margin: 0 auto;
+}
+
+
+@media only screen and (max-width:520px){
+
+    #info{
+        background: url(/assets/img/7AM\ BRAND\ \(2\).png);
+        height: 45vh;
+        background-attachment: fixed;
+        background-repeat: no-repeat;
+        
+    }
+   /* info */
+    #info .bg-darks{
+        position: absolute;
+        background: rgba(0, 0, 0, .4);
+        width: 100%;
+        height: 100%;
+    }
+
+    #info .bg-darks p{
+        width: 100%;
+    }
+
+
+}
